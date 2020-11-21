@@ -117,7 +117,8 @@ void result()
 			blueballfall++;
 	}
 	
-	cout<<"Number of Red Balls = s"<<redballfall<<"\n"<<"Number of Blue Balls = "<<blueballfall;
+	cout<<"Value of s = "<< s <<"\t Value of T = "<<t<<endl;
+	cout<<"Number of Red Balls = "<<redballfall<<"\n"<<"Number of Blue Balls = "<<blueballfall;
 	
 	saveresultinfile(redballfall,blueballfall);
 	
